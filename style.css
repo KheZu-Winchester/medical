@@ -1,0 +1,400 @@
+*{
+    font-family: 'Montserrat', sans-serif;   
+}
+.medical{
+    position: absolute;
+font-style: normal;
+font-weight: bolder;
+font-size: 24px;
+letter-spacing: 0.1px;
+color: #252B42;
+line-height: 32px
+}
+li{
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #737373;
+}
+.login{
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 40px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #57C192;
+}
+.btn-light-green{
+display: flex;  
+flex-direction: row;
+align-items: center;
+padding: 10px 17px;
+background: #57C192;
+border-radius: 5px;
+}
+.btn-light-green :hover{
+display: flex;  
+flex-direction: row;
+align-items: center;
+padding: 15px 25px;
+margin-top: -10px;
+background: #57C192;
+border-radius: 5px;
+}
+.dental{    
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+color: #57C192;
+
+}
+.doctor{
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 80px;
+letter-spacing: 0.2px;
+color: #252B42;
+}
+.help{
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.2px;
+color: #737373;
+}
+.btn-green{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 40px;
+gap: 10px;
+color: white;
+width: 193px;
+height: 52px;
+background: #57C192;
+border-radius: 5px;
+font-weight: 700;
+font-size: 14px;
+}
+.btn-outline-green{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 20px;
+position: absolute;
+margin-left: 100px;
+gap: 10px;
+color: #57C192; 
+width: 193px;
+height: 52px;
+border: 1px solid #57C192;
+border-radius: 5px;
+font-weight: 700;
+font-size: 14px;
+}
+.bigtext{
+    width: 100px;
+height: 80px;
+
+/* h1 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 80px;
+/* identical to box height, or 138% */
+
+text-align: center;
+letter-spacing: 0.2px;
+margin-left: 50px;
+
+/* primary-color */
+
+color: #57C192;
+}
+.smalltext{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.1px;
+
+/* text-color */
+
+color: #252B42;
+}
+.advice{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;                            
+    color: #2DA673;
+}
+.activity{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+/* identical to box height, or 125% */
+
+    letter-spacing: 0.2px;
+
+/* text-color */
+
+    color: #252B42;
+}
+.string{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: #737373;
+}
+.card-style{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 35px 40px;
+gap: 20px;
+
+width: 328px;
+height: 268px;
+
+/* light-background-color */
+
+background: #FFFFFF;
+/* accentued-drop-shadow */
+
+box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07)
+}
+.customBody{
+    margin-top: -30px;
+    
+}
+.cusTitle{
+    margin-top: 10px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.1px;
+
+/* text-color */
+
+color: #252B42;
+}
+.cusText{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: #737373;
+
+}
+.meet{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+/* identical to box height, or 125% */
+
+letter-spacing: 0.2px;
+
+/* text-color */
+
+color: #252B42;
+}
+.learnMore{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+letter-spacing: 0.2px;
+
+/* primary-text-color */
+
+color: #2DA673
+}
+.prac{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: 0.2px;
+
+/* primary-text-color */
+
+color: #2DA673;
+}
+.specialize{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+/* identical to box height, or 125% */
+
+letter-spacing: 0.2px;
+
+/* text-color */
+
+color: #252B42;
+}
+.pic{
+    margin : -60px 70px 8px 70px;
+
+}
+.info{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.caption{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: 0.2px;
+
+/* primary-text-color */
+
+color: #2DA673;
+}
+.title{
+    /* h5 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.1px;
+
+/* text-color */
+
+color: #252B42;
+
+
+}
+.span{
+    font-family: 'Montserrat';
+    margin-left: 10px;
+    margin-bottom: 5px;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: #737373;
+}
+.delete{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.1px;
+text-decoration-line: line-through;
+
+/* muted-color */
+
+color: #BDBDBD;
+
+}
+.true{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+margin-left: 10px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.1px;
+
+/* success-text-color */
+
+color: #2DC071;
+}
+.marginStart{
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.botImage{
+    width: 70px;
+    margin-left: 90px;
+}
+.bio{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 180px;
+}
+.subscribe{
+    margin-left: 260px;
+}
+.footer{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: #737373;
+}
